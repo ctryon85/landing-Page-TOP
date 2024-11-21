@@ -16,7 +16,7 @@ header {
 
 .logo {
     text-shadow: 3px 3px 5px gray;
-    background-color: rgb(7, 114, 222);
+    background-color: rgb(32, 34, 35);
     margin-top: 15px;
     margin-left: 0px;
     border: solid 1px gray;
@@ -55,7 +55,7 @@ img{
     box-shadow: 2px 2px 5px;
     bottom: 80%;
     position: absolute;
-    bottom: 30%;
+    bottom: 37%;
     margin-bottom: 30px;
     margin-left: 65%;
     color: white;
@@ -87,4 +87,32 @@ img{
     box-shadow: 2px 0px 5px gray;
     font-size: 24px;
     text-align: center;
+}
+
+.small-box1, .small-box2, .small-box3, .small-box4 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10%;
+    background-color: aliceblue;
+    font-size: 12px;
+    font-weight: 800;
+    /* https://www.gettyimages.com/photos/surfboard (free images) */
+}
+
+
+footer {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
 }
