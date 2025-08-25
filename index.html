@@ -4,49 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice js</title>
+    <title>Rad Waves | Surf Shop</title>
     <link rel="stylesheet" href="sytles.css">
 </head>
 <body>
-  <script>
-      console.log("Hello, World");
-  </script>  
+
 <header class="header">
-    <div class="logo">
-        <h2>Rad Waves</h2>
+    <div class="container header-flex">
+        <div class="logo">
+            <h1>Rad Waves</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Merch</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav class="links">
-        <ul>
-            <li>Home</li>
-            <li>Merch</li>
-            <li>About Us</li>
-        </ul>
-    </nav>
 </header>
 
-<div class="box-1">
-<!-- image of wave is free img from https://pixabay.com/images/search/wave/ -->
-    <img href="https://pixabay.com/images/search/wave/" src="images/waves.jpeg">
-    <div class="small-box">
-        <p><em>Follow Us!</em></p>
-        <input> <br> <br>
-        <button class="top-button">sign up!</button>
- </div>
-</div>
-<div class="box-2">
-    <h2>Experiental Page</h2>
-    <p><em>Thanks for checking out my landing page <br>
-    I am experimenting with this page, having fun so far.</em></p>
-</div>
-<div class="box-3">
-    <div class="small-box1"><img src="images/blueboard.jpeg" alt="blues-surf-board">Blue Boards</div>
-    <div class="small-box2"><img src="images/red-orange-board.jpeg" alt="red-orange-surf-board">Orange Boards</div>
-    <div class="small-box3"><img src="images/redboard.jpeg" alt="red-surf-board">Red Boards</div>
-    <div class="small-box4"><img src="images/white-board.jpeg" alt="white-surf-board">White Boards</div>
-<!-- free images from https://www.gettyimages.com/photos/surfboard -->
-</div>
-<div class="box-4"></div>
-<footer>Copyright © The Odin Project</footer>
+<main>
+    <section class="hero">
+        <img class="hero-img" src="images/waves.jpeg" alt="Ocean waves background">
+        <div class="hero-content">
+            <h2>Catch the Wave</h2>
+            <p>Sign up for exclusive deals and surf news!</p>
+            <form class="signup-form">
+                <input type="email" placeholder="Your email" aria-label="Email address" required>
+                <button type="submit" class="top-button">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Welcome to Rad Waves</h2>
+        <p>Thanks for checking out our landing page.<br>
+            We’re passionate about surfing. Explore our boards and join the community!</p>
+    </section>
+
+    <section class="boards">
+        <h2>Our Boards</h2>
+        <div class="boards-grid">
+            <div class="board-card">
+                <img src="images/blueboard.jpeg" alt="Blue surfboard">
+                <span>Blue Boards</span>
+            </div>
+            <div class="board-card">
+                <img src="images/red-orange-board.jpeg" alt="Red-orange surfboard">
+                <span>Orange Boards</span>
+            </div>
+            <div class="board-card">
+                <img src="images/redboard.jpeg" alt="Red surfboard">
+                <span>Red Boards</span>
+            </div>
+            <div class="board-card">
+                <img src="images/white-board.jpeg" alt="White surfboard">
+                <span>White Boards</span>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Rad Waves. Inspired by The Odin Project.</p>
+    </div>
+</footer>
 
 </body>
 </html>
